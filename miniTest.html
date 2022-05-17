@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .quest td button{
+            width: 100px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Số lượng phần tử </th>
+        <th>Nhập mảng</th>
+        <td></td>
+    </tr>
+    <tr>
+        <td><input type="number" id="numberElement"></td>
+        <td><input type="text" id="arrayElement"></td>
+        <td colspan="2"><button onclick="createArray()">Tạo mảng</button></td>
+    </tr>
+    <tr class="quest">
+        <td><button onclick="printEvenNumber()">Câu 1</button></td>
+        <td><button onclick="countElement()">Câu 2</button></td>
+        <td><button onclick="sumPrimeInArray()">Câu 3</button></td>
+        <td><button onclick="sumPrime()">Câu 4</button></td>
+    </tr>
+    <tr>
+        <th>Result:</th>
+        <td colspan="3" id="result"></td>
+
+    </tr>
+</table>
+
+</body>
+<script src="miniTest.js"></script>
+</html>
